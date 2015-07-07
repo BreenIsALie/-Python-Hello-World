@@ -1,6 +1,6 @@
 __author__ = 'Sickan'
 
-# Initial Hello World environment test. Random basic code snippets abound below
+# Initial Hello World environment test. Random basic code snippets abound below. Test of GitHub functions
 
 print "Hello World"
 print "Goodbye"
