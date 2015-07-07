@@ -1,6 +1,6 @@
-__author__ = 'Sickan'
+__author__ = 'BreenIsALie'
 
-# Initial Hello World environment test. Random basic code snippets abound below. Test of GitHub functions
+# Initial Hello World environment test. Random basic code snippets abound below. Test of GitHub functions. This covers exercise 1 through 6 from http://learnpythonthehardway.org/book/
 
 print "Hello World"
 print "Goodbye"
@@ -70,3 +70,25 @@ num2 = 20
 num3 = 30
 
 print "If i add %d, %d and %d i get %d" % (num1, num2, num3, num1 + num2+ num3)
+
+# More text and strings
+x = "There are %d types of people" % 10
+binary = "binary"
+do_not = "don't"
+y = "Those who know %s and those who %s" % (binary, do_not)
+
+print x
+print y
+
+print "I said %r" % x
+print "I also said: '%s'." % y
+
+hilarious = False
+joke_evaluation = "Isn't that joke so funny?! %r"
+
+print joke_evaluation % hilarious
+
+w = "This is the left side of..."
+e = "a string with a right side."
+
+print w + e
