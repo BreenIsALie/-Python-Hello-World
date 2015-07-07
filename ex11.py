@@ -1,6 +1,6 @@
 __author__ = 'BreenIsALie'
 
-# Exercise 10, Exercises taken from http://learnpythonthehardway.org/book/
+# Exercise 11, Exercises taken from http://learnpythonthehardway.org/book/
 
 # Prompt user for information, and store info in variables
 print "How old are you?",
