@@ -52,3 +52,21 @@ print "There will be", cars_not_driven, "empty cars today"
 print "We can transport", carpool_capacity, "people today"
 print "We have", passengers, "to carpool today"
 print "We need to put about", average_passanger_per_car, "in each car"
+
+# Format strings and variables
+my_name = "BreenIsALie"
+my_age = "22"
+my_eyes = "Blue"
+my_teeth = "White"
+my_hair = "Brown"
+
+print "Let's talk about %s" % my_name
+print "He's got %s eyes and %s hair" % (my_eyes, my_hair)
+print "His teeth are usually %s depending on the coffee" %my_teeth
+
+# Math using the variable string
+num1 = 10
+num2 = 20
+num3 = 30
+
+print "If i add %d, %d and %d i get %d" % (num1, num2, num3, num1 + num2+ num3)
