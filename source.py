@@ -32,3 +32,23 @@ print "Add together", 20.0 + 30.0
 
 print "Now with more decimals"
 print 20.5 + 30.5
+
+# Variable tests below
+# Logic + variables to print info
+
+cars = 100
+space_in_a_car = 4.0
+drivers = 30
+cars_driven = drivers
+passengers = 90
+cars_not_driven = cars - drivers
+carpool_capacity = cars_driven * space_in_a_car
+average_passanger_per_car = passengers / cars_driven
+
+# Print results from above code
+print "There are", cars, "cars avalible"
+print "There are only", drivers, "drivers avalible"
+print "There will be", cars_not_driven, "empty cars today"
+print "We can transport", carpool_capacity, "people today"
+print "We have", passengers, "to carpool today"
+print "We need to put about", average_passanger_per_car, "in each car"
