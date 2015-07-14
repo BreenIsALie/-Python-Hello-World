@@ -12,7 +12,7 @@ print "We are going to erase %r" % filename
 print "If you don't want that, hit CTRL-C (^C)"
 print "If you do want that, hit RETURN"
 
-raw_input("?")  # Ask the user for confirmation
+raw_input("\n\n:> ")  # Ask the user for confirmation
 
 print "Opening the file..."
 target = open(filename, "w")  # Open the file specified by the command line
